@@ -7,7 +7,7 @@
 }
 
 body {
-  background-color: #1278F1;
+  background-color: #0A6ADB;
 }
 
 .hero {
@@ -15,8 +15,7 @@ body {
   background-position: center bottom;
   background-repeat: no-repeat;
   background-size: cover;
-  box-shadow: 0 5px 5px rgba(0, 0, 0, 0.5);
-  border-bottom: 1px solid black;
+  box-shadow: 0 2px 2px rgba(0, 0, 0, 0.5);
 }
 .hero header {
   display: flex;
@@ -56,7 +55,9 @@ body {
 .hero-content {
   display: flex;
   align-items: center;
-  margin: 88px 164px 0 164px;
+  justify-content: center;
+  gap: 16px;
+  margin: 88px 146px 0 146px;
   padding-bottom: 72px;
   color: #FFFFFF;
 }
@@ -65,9 +66,13 @@ body {
   font-size: 52px;
   padding: 0;
   text-shadow: -5px -5px 5px rgb(255, 64, 64), 5px 5px 5px rgb(64, 131, 255);
+  height: 235px;
+  width: 540px;
 }
 .hero-content p {
   margin: 8px 0 24px 0;
+  height: 85px;
+  width: 445px;
 }
 .hero-content #cta {
   padding-bottom: 55px;
@@ -92,6 +97,84 @@ body {
   color: #F2F4F6;
   background-color: #1278F1;
   cursor: pointer;
+}
+
+.testimonials {
+  text-align: center;
+  background-color: #0A6ADB;
+}
+.testimonials h2 {
+  color: #FFFFFF;
+  font-size: 14px;
+  font-weight: normal;
+  opacity: 80%;
+  margin-top: 2px;
+}
+.testimonials #logos {
+  display: flex;
+  justify-content: center;
+  gap: 86px;
+  margin: 34px 0 108px 0;
+  height: auto;
+  width: 100%;
+}
+.testimonials #why-choose-us {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+.testimonials #why-choose-us h3 {
+  color: #FFFFFF;
+  margin: 10px 0 24px 0;
+}
+.testimonials #why-choose-us p {
+  color: #FFFFFF;
+  opacity: 80%;
+  line-height: 2;
+  height: 88px;
+  width: 352px;
+}
+
+.features {
+  display: flex;
+  justify-content: center;
+  background-color: #0A6ADB;
+  margin-top: 178px;
+  gap: 128px;
+}
+.features h2 {
+  height: 85px;
+  width: 540px;
+  color: #FFFFFF;
+  margin-bottom: 16px;
+}
+.features p {
+  opacity: 80%;
+  height: 64px;
+  color: #FFFFFF;
+  width: 640px;
+}
+.features #cellphone {
+  color: #FFFFFF;
+}
+.features #cellphone h3 {
+  margin-bottom: 16px;
+}
+.features #cellphone p {
+  opacity: 80%;
+  margin-left: 28px;
+  width: 540px;
+}
+.features #cellphone .phone-features {
+  display: flex;
+  gap: 8px;
+}
+.features #both {
+  margin-top: 88px;
+  justify-content: center;
+}
+.features #both p {
+  width: 540px;
 }
 
 /*# sourceMappingURL=style.css.map */
