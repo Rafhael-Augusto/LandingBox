@@ -4,6 +4,7 @@
   box-sizing: border-box;
   font-family: "ABeeZee", sans-serif;
   text-decoration: none;
+  list-style-type: none;
 }
 
 body {
@@ -15,7 +16,7 @@ body {
   background-position: center bottom;
   background-repeat: no-repeat;
   background-size: cover;
-  box-shadow: 0 2px 2px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 0 5px rgb(0, 0, 0);
 }
 .hero header {
   display: flex;
@@ -24,7 +25,6 @@ body {
   background-color: #1278F1;
   width: 100%;
   height: 50px;
-  margin-top: 21px;
   padding: 0 20px;
 }
 .hero header img {
@@ -140,7 +140,7 @@ body {
   justify-content: center;
   background-color: #0A6ADB;
   margin-top: 178px;
-  gap: 128px;
+  gap: 120px;
 }
 .features h2 {
   height: 85px;
@@ -153,28 +153,384 @@ body {
   height: 64px;
   color: #FFFFFF;
   width: 640px;
+  line-height: 2;
 }
-.features #cellphone {
+.features .phone {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 125px;
+}
+.features .phone .why-good div {
+  display: flex;
+  align-items: center;
   color: #FFFFFF;
 }
-.features #cellphone h3 {
+.features .phone .why-good div h3 {
+  margin: 16px 0 16px 0;
+}
+.features .phone .why-good div img {
+  margin: 16px 8px 16px 0;
+}
+.features .phone .why-good p {
+  margin-left: 28px;
+  font-size: 14px;
+  width: 480px;
+}
+.features .both {
+  display: flex;
+  justify-items: center;
+  align-items: center;
+}
+.features .both p {
+  margin-bottom: 116px;
+}
+.features .both a {
+  margin-bottom: 50px;
+  opacity: 80%;
+  color: #FFFFFF;
+}
+
+.judgement {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  color: #FFFFFF;
+}
+.judgement h2 {
+  margin-top: 97px;
+  margin-bottom: 32px;
+  font-size: 36px;
+  width: 700px;
+}
+.judgement p {
+  width: 775px;
+}
+.judgement .items {
+  display: flex;
+  justify-content: center;
+  gap: 45px;
+  row-gap: 0;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.judgement .items .text {
+  width: 316px;
+  text-align: left;
+  margin-top: 22px;
+}
+.judgement .items .date {
+  text-align: left;
+  width: 100%;
+  font-size: 12px;
+  margin-top: 8px;
+}
+.judgement .items .elements {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  gap: 20px;
+  margin-top: 8px;
+}
+.judgement .items .elements .heart {
+  display: flex;
+  align-items: center;
+}
+.judgement .items .elements .heart p {
+  margin-left: 6px;
+  font-size: 14px;
+  width: 100%;
+}
+.judgement .items .item {
+  gap: 112px;
+  border: 1px solid #FFFFFF;
+  border-radius: 4px;
+  margin-top: 48px;
+  padding: 24px;
+}
+.judgement .items .item .person {
+  display: flex;
+  align-items: center;
+}
+.judgement .items .item .person .pfp {
+  width: 36px;
+  height: 36px;
+  margin-right: 8px;
+  border-radius: 4px;
+  border: 1px solid #FFFFFF;
+}
+.judgement .items .item .person div img {
+  width: 92px;
+  height: 32x;
+  margin-left: 88px;
+}
+.judgement .items .item .person p {
+  font-size: 14px;
+  width: 100%;
+}
+
+.number-users {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  color: #FFFFFF;
+  font-size: 14px;
+}
+.number-users h2 {
+  margin-top: 48px;
+  margin-bottom: 32px;
+  font-size: 36px;
+  width: 700px;
+}
+.number-users h3 {
+  font-weight: 400;
+  opacity: 80%;
+}
+.number-users p {
+  width: 775px;
+  margin-bottom: 48px;
+}
+.number-users .number-of-users {
+  display: flex;
+  gap: 130px;
   margin-bottom: 16px;
 }
-.features #cellphone p {
-  opacity: 80%;
-  margin-left: 28px;
-  width: 540px;
-}
-.features #cellphone .phone-features {
+.number-users .number-of-users div {
   display: flex;
+  align-items: center;
+  gap: 32px;
+}
+.number-users .number-of-users div img {
+  opacity: 100%;
+}
+.number-users .number-of-users div span {
+  opacity: 80%;
+}
+
+.prices {
+  background-image: url("../images/Background/BG 2.png");
+  background-position: center bottom;
+  background-repeat: no-repeat;
+  margin-top: 32px;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  border-bottom: 5px solid #1278F1;
+}
+.prices .favourite-txt {
+  color: #FFFFFF;
+  background-color: #1278F1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 32px;
+  border: 1px solid #FFFFFF;
+  border-radius: 6px;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+  border-bottom: none;
+  font-weight: normal;
+  font-size: 12px;
+}
+.prices .favourite {
+  background-color: #1278F1;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  flex-direction: column;
+  border: 1px solid #FFFFFF;
+  border-radius: 6px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  height: 505px;
+  width: 350px;
+  color: #FFFFFF;
+}
+.prices .favourite h2 {
+  margin-bottom: 12px;
+}
+.prices .favourite p {
+  font-weight: normal;
+  line-height: 21px;
+  width: 310px;
+}
+.prices .favourite .montly {
+  margin-bottom: 32px;
+}
+.prices .favourite button {
+  height: 55px;
+  width: 313px;
+  background-color: transparent;
+  border: 2px solid #FFFFFF;
+  border-radius: 6px;
+  color: #FFFFFF;
+  font-weight: bold;
+  margin-bottom: 32px;
+}
+.prices .favourite .prices {
+  display: flex;
+  gap: 0;
+  border: none;
+}
+.prices .favourite .prices span {
+  font-weight: bold;
+  font-size: 21px;
+}
+.prices .favourite .prices .price {
+  font-weight: bold;
+  font-size: 58px;
+}
+.prices .item {
+  margin-top: 20px;
+  background-color: #1278F1;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  flex-direction: column;
+  border: 1px solid #FFFFFF;
+  border-radius: 6px;
+  height: 517px;
+  width: 350px;
+  color: #FFFFFF;
+}
+.prices .item h2 {
+  margin-bottom: 12px;
+}
+.prices .item p {
+  font-weight: normal;
+  line-height: 21px;
+  width: 310px;
+}
+.prices .item .montly {
+  margin-bottom: 32px;
+}
+.prices .item button {
+  height: 55px;
+  width: 313px;
+  background-color: transparent;
+  border: 2px solid #FFFFFF;
+  border-radius: 6px;
+  color: #FFFFFF;
+  font-weight: bold;
+  margin-bottom: 32px;
+}
+.prices .item .prices {
+  display: flex;
+  gap: 0;
+  border: none;
+}
+.prices .item .prices span {
+  font-weight: bold;
+  font-size: 21px;
+}
+.prices .item .prices .price {
+  font-weight: bold;
+  font-size: 58px;
+}
+
+.questions-asked {
+  background-color: #1278F1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  color: #FFFFFF;
+}
+.questions-asked h2 {
+  margin-top: 48px;
+  margin-bottom: 32px;
+  font-size: 36px;
+}
+.questions-asked p {
+  width: 775px;
+  margin-bottom: 48px;
+}
+.questions-asked .questions {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 40px;
+  align-items: center;
+}
+.questions-asked .questions .question {
+  border: 1px solid #FFFFFF;
+  border-radius: 6px;
+  padding: 28px;
+  text-align: left;
+  height: 200px;
+}
+.questions-asked .questions .question h3 {
+  margin-bottom: 16px;
+}
+.questions-asked .questions .question p {
+  width: 532px;
+  opacity: 80%;
+  font-size: 14px;
+  line-height: 2;
+}
+
+.closing {
+  background-color: #1278F1;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+  padding: 210px 0 80px 0;
+  height: 150px;
+  border-bottom: 2px solid #0A6ADB;
+}
+.closing .left {
+  display: flex;
+  justify-content: left;
+  flex-direction: column;
+}
+.closing .left h2 {
+  color: #FFFFFF;
+  text-align: left;
+  width: 390px;
+  font-size: 32px;
+}
+.closing .left img {
+  height: 38px;
+  width: 160px;
+}
+.closing .right {
+  display: flex;
+  flex-direction: column;
   gap: 8px;
 }
-.features #both {
-  margin-top: 88px;
-  justify-content: center;
+.closing .right button {
+  height: 55px;
+  width: 313px;
+  background-color: transparent;
+  border: 2px solid #FFFFFF;
+  border-radius: 6px;
+  color: #FFFFFF;
+  font-weight: bold;
 }
-.features #both p {
-  width: 540px;
+.closing .right .normal-cta {
+  border: 1px solid #F2F4F6;
+  opacity: 80%;
+  font-size: 12px;
+}
+
+footer {
+  display: flex;
+  justify-content: space-around;
+  background-color: #1278F1;
+  color: #FFFFFF;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+footer h2, footer li {
+  margin-bottom: 16px;
+}
+footer li {
+  opacity: 80%;
 }
 
 /*# sourceMappingURL=style.css.map */
