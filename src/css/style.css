@@ -533,4 +533,431 @@ footer li {
   opacity: 80%;
 }
 
+@media (max-width: 1024px) {
+  .hero header {
+    height: 50px;
+    padding: 0 20px;
+  }
+  .hero header img {
+    height: 38px;
+    width: 160px;
+    margin-left: 0px;
+  }
+  .hero header #navigation {
+    gap: 16px;
+    margin-right: 0px;
+  }
+  .hero header #navigation a {
+    font-size: 14px;
+    opacity: 80%;
+  }
+  .hero header #navigation button {
+    height: 35px;
+    width: 80px;
+  }
+  .hero-content {
+    gap: 16px;
+    margin: 88px 146px 0 146px;
+    padding-bottom: 72px;
+  }
+  .hero-content h1 {
+    font-size: 22px;
+    height: 35px;
+    width: 220px;
+  }
+  .hero-content p {
+    margin: 64px 0 64px 0;
+    height: 25px;
+    width: 250px;
+  }
+  .hero-content img {
+    height: 300px;
+  }
+  .hero-content #cta {
+    padding-bottom: 25px;
+  }
+  .hero-content #cta #big-cta {
+    height: 45px;
+    width: 100px;
+    font-size: 14px;
+  }
+  .hero-content #cta #normal-cta {
+    height: 45px;
+    width: 100px;
+    font-size: 14px;
+  }
+  .testimonials #logos {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    margin: 34px 0 80px 0;
+  }
+  .testimonials #logos img {
+    width: 80%;
+  }
+  .testimonials #why-choose-us {
+    gap: 15px;
+  }
+  .testimonials #why-choose-us h3 {
+    font-size: 15px;
+  }
+  .testimonials #why-choose-us p {
+    height: 88px;
+    width: 220px;
+    font-size: 16px;
+  }
+  .testimonials #why-choose-us img {
+    width: 30%;
+  }
+  .features {
+    margin-top: 150px;
+    gap: 40px;
+  }
+  .features h2 {
+    height: 45px;
+    width: 440px;
+    font-size: 20px;
+  }
+  .features p {
+    opacity: 80%;
+    height: 44px;
+    width: 490px;
+    margin-bottom: 24px;
+  }
+  .features .phone {
+    gap: 0px;
+  }
+  .features .phone .why-good div h3 {
+    font-size: 16px;
+    width: 380px;
+  }
+  .features .phone .why-good p {
+    margin-left: 28px;
+    font-size: 13px;
+    width: 400px;
+  }
+  .features .both h2 {
+    margin-bottom: 30px;
+    width: 290px;
+    font-size: 20px;
+  }
+  .features .both p {
+    margin-bottom: 180px;
+    width: 300px;
+    font-size: 14px;
+  }
+  .features .both a {
+    margin-bottom: 80px;
+    opacity: 80%;
+  }
+  .features .both-img img {
+    width: 350px;
+  }
+  .judgement p {
+    width: 675px;
+  }
+  .judgement .items .item {
+    gap: 20px;
+    border: 1px solid #FFFFFF;
+    border-radius: 4px;
+    margin-top: 48px;
+    padding: 8px;
+  }
+  .number-users p {
+    width: 675px;
+    margin-bottom: 48px;
+  }
+  .prices {
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+  .prices .favourite-txt {
+    margin-top: 20px;
+  }
+  .questions-asked {
+    background-color: #1278F1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+  }
+  .questions-asked h2 {
+    margin-top: 48px;
+    margin-bottom: 32px;
+    font-size: 36px;
+  }
+  .questions-asked p {
+    width: 675px;
+    margin-bottom: 48px;
+  }
+  .questions-asked .questions {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px;
+    align-items: center;
+  }
+  .questions-asked .questions .question {
+    border: 1px solid #FFFFFF;
+    border-radius: 6px;
+    padding: 28px;
+    text-align: left;
+    height: 200px;
+  }
+  .questions-asked .questions .question h3 {
+    margin-bottom: 16px;
+  }
+  .questions-asked .questions .question p {
+    width: 532px;
+    opacity: 80%;
+    font-size: 14px;
+    line-height: 2;
+  }
+  .closing {
+    padding: 210px 0 100px 0;
+    height: 150px;
+  }
+  .closing .left h2 {
+    font-size: 25px;
+  }
+  .closing .right button {
+    height: 45px;
+    width: 213px;
+  }
+  footer {
+    display: flex;
+    justify-content: space-around;
+    background-color: #1278F1;
+    color: #FFFFFF;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  footer h2 {
+    font-size: 18px;
+    margin-bottom: 16px;
+  }
+  footer li {
+    font-size: 14px;
+    margin-bottom: 16px;
+  }
+  footer li {
+    opacity: 80%;
+  }
+}
+@media (max-width: 480px) {
+  .hero header {
+    height: 50px;
+    padding: 0 20px;
+  }
+  .hero header img {
+    height: 38px;
+    width: 160px;
+    margin-left: 0px;
+  }
+  .hero header #navigation {
+    gap: 16px;
+    margin-right: 0px;
+  }
+  .hero header #navigation a {
+    font-size: 14px;
+    opacity: 80%;
+  }
+  .hero header #navigation button {
+    height: 35px;
+    width: 80px;
+  }
+  .hero-content {
+    gap: 16px;
+    margin: 88px 146px 0 146px;
+    padding-bottom: 72px;
+  }
+  .hero-content h1 {
+    font-size: 22px;
+    height: 35px;
+    width: 220px;
+  }
+  .hero-content p {
+    margin: 64px 0 64px 0;
+    height: 25px;
+    width: 250px;
+  }
+  .hero-content img {
+    height: 300px;
+  }
+  .hero-content #cta {
+    padding-bottom: 25px;
+  }
+  .hero-content #cta #big-cta {
+    height: 45px;
+    width: 100px;
+    font-size: 14px;
+  }
+  .hero-content #cta #normal-cta {
+    height: 45px;
+    width: 100px;
+    font-size: 14px;
+  }
+  .testimonials #logos {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    margin: 34px 0 80px 0;
+  }
+  .testimonials #logos img {
+    width: 80%;
+  }
+  .testimonials #why-choose-us {
+    gap: 15px;
+  }
+  .testimonials #why-choose-us h3 {
+    font-size: 15px;
+  }
+  .testimonials #why-choose-us p {
+    height: 88px;
+    width: 220px;
+    font-size: 16px;
+  }
+  .testimonials #why-choose-us img {
+    width: 30%;
+  }
+  .features {
+    margin-top: 150px;
+    gap: 40px;
+  }
+  .features h2 {
+    height: 45px;
+    width: 440px;
+    font-size: 20px;
+  }
+  .features p {
+    opacity: 80%;
+    height: 44px;
+    width: 490px;
+    margin-bottom: 24px;
+  }
+  .features .phone {
+    gap: 0px;
+  }
+  .features .phone .why-good div h3 {
+    font-size: 16px;
+    width: 380px;
+  }
+  .features .phone .why-good p {
+    margin-left: 28px;
+    font-size: 13px;
+    width: 400px;
+  }
+  .features .both h2 {
+    margin-bottom: 30px;
+    width: 290px;
+    font-size: 20px;
+  }
+  .features .both p {
+    margin-bottom: 180px;
+    width: 300px;
+    font-size: 14px;
+  }
+  .features .both a {
+    margin-bottom: 80px;
+    opacity: 80%;
+  }
+  .features .both-img img {
+    width: 350px;
+  }
+  .judgement p {
+    width: 675px;
+  }
+  .judgement .items .item {
+    gap: 20px;
+    border: 1px solid #FFFFFF;
+    border-radius: 4px;
+    margin-top: 48px;
+    padding: 8px;
+  }
+  .number-users p {
+    width: 675px;
+    margin-bottom: 48px;
+  }
+  .prices {
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+  .prices .favourite-txt {
+    margin-top: 20px;
+  }
+  .questions-asked {
+    background-color: #1278F1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+  }
+  .questions-asked h2 {
+    margin-top: 48px;
+    margin-bottom: 32px;
+    font-size: 36px;
+  }
+  .questions-asked p {
+    width: 675px;
+    margin-bottom: 48px;
+  }
+  .questions-asked .questions {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px;
+    align-items: center;
+  }
+  .questions-asked .questions .question {
+    border: 1px solid #FFFFFF;
+    border-radius: 6px;
+    padding: 28px;
+    text-align: left;
+    height: 200px;
+  }
+  .questions-asked .questions .question h3 {
+    margin-bottom: 16px;
+  }
+  .questions-asked .questions .question p {
+    width: 532px;
+    opacity: 80%;
+    font-size: 14px;
+    line-height: 2;
+  }
+  .closing {
+    padding: 210px 0 100px 0;
+    height: 150px;
+  }
+  .closing .left h2 {
+    font-size: 25px;
+  }
+  .closing .right button {
+    height: 45px;
+    width: 213px;
+  }
+  footer {
+    display: flex;
+    justify-content: space-around;
+    background-color: #1278F1;
+    color: #FFFFFF;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  footer h2 {
+    font-size: 18px;
+    margin-bottom: 16px;
+  }
+  footer li {
+    font-size: 14px;
+    margin-bottom: 16px;
+  }
+  footer li {
+    opacity: 80%;
+  }
+}
+
 /*# sourceMappingURL=style.css.map */
